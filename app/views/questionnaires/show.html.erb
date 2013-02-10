@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Fixed date:</b>
+  <%= @questionnaire.fixed_date %>
+</p>
+
+<p>
+  <b>Owner:</b>
+  <%= @questionnaire.owner_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_questionnaire_path(@questionnaire) %> |
+<%= link_to 'Back', questionnaires_path %>

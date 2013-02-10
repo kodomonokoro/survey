@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  fixed_date: 2013-02-10
+  owner_id: 1
+
+two:
+  fixed_date: 2013-02-10
+  owner_id: 1

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  answer_date: 2013-02-10
+  user_id: 1
+  questionnaire_id: 1
+
+two:
+  answer_date: 2013-02-10
+  user_id: 1
+  questionnaire_id: 1

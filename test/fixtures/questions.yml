@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  question: MyText
+  format: MyString
+  upper_limit: 1
+  depend_id: 1
+  depend_pattern: MyString
+  questionnaire_id: 1
+
+two:
+  question: MyText
+  format: MyString
+  upper_limit: 1
+  depend_id: 1
+  depend_pattern: MyString
+  questionnaire_id: 1

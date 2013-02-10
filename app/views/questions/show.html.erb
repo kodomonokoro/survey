@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Question:</b>
+  <%= @question.question %>
+</p>
+
+<p>
+  <b>Format:</b>
+  <%= @question.format %>
+</p>
+
+<p>
+  <b>Upper limit:</b>
+  <%= @question.upper_limit %>
+</p>
+
+<p>
+  <b>Depend:</b>
+  <%= @question.depend_id %>
+</p>
+
+<p>
+  <b>Depend pattern:</b>
+  <%= @question.depend_pattern %>
+</p>
+
+<p>
+  <b>Questionnaire:</b>
+  <%= @question.questionnaire_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_question_path(@question) %> |
+<%= link_to 'Back', questions_path %>
