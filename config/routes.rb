@@ -1,4 +1,11 @@
 Survey::Application.routes.draw do
+  root :to => 'page#index'
+
+  match "/page/index" => "page#index"
+
+  devise_for :users
+
+
   resources :requests
 
 
@@ -9,9 +16,6 @@ Survey::Application.routes.draw do
 
 
   resources :questionnaires
-
-
-  resources :users
 
 
   # The priority is based upon order of creation:
